@@ -453,7 +453,8 @@ public class RegistrarCompraProductoDialog extends javax.swing.JFrame {
         vntDialog.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_jButton1ActionPerformed
-    
+
+
         public void ReporteData(){
             Producto p = new Producto();
             p.setProducto_tipo(v_TipoTabla.getSelectedItem().toString());
