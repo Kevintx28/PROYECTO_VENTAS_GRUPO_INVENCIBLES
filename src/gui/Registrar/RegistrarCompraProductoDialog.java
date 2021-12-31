@@ -476,6 +476,8 @@ public class RegistrarCompraProductoDialog extends javax.swing.JFrame {
                     fila[4] = prod.getProducto_precio();
                     fila[5] = prod.getProducto_stock();
                     modelo.addRow(fila);
+
+
                 }
             tablaProducto.setModel(modelo);       
     }
