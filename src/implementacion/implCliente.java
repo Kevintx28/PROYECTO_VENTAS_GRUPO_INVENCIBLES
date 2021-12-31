@@ -85,6 +85,7 @@ public class implCliente {
                 u.setNombreUsuario(rset.getString(7));
                 u.setPasword(rset.getString(8));          
             }
+
         } catch (SQLException ex) {
                 ex.getMessage();
                 System.out.println("errrorrrrr:"+ex.getMessage());
