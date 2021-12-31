@@ -13,7 +13,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Fray
+ * @author Kevin and Fray
  */
 public class LoginVentas extends javax.swing.JFrame {
     
