@@ -442,7 +442,6 @@ public class EditarUsuarios extends javax.swing.JFrame {
         int row=tablaProducto.getSelectedRow();
              if (evt.getClickCount()==1) {
             JTable receptor=(JTable)evt.getSource();
-            
 
 
             txf_id.setText(receptor.getModel().getValueAt(receptor.getSelectedRow(), 0).toString());
