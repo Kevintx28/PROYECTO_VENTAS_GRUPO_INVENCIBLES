@@ -373,6 +373,8 @@ public class RegistrarCompraProductoDialog extends javax.swing.JFrame {
 
                     ReporteData();
                 }else{
+
+
                     JOptionPane.showMessageDialog(null,
                     "Ingrese una cantidad valida por favor",
                     "Error/Advertencia",
