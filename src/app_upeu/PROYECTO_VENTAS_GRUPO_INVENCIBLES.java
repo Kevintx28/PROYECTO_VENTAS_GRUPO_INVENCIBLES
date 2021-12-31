@@ -13,6 +13,8 @@ import gui.login.LoginVentas;
  */
 public class PROYECTO_VENTAS_GRUPO_INVENCIBLES {
 
+
+
     public static void main(String[] args) {
         LoginVentas lg  = new LoginVentas();
         lg.setVisible(true);
