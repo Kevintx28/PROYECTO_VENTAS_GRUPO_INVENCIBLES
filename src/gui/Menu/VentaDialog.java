@@ -22,13 +22,17 @@ public class VentaDialog extends javax.swing.JFrame {
     Usuario u   = new Usuario();  
     FondoPanel fondo = new FondoPanel();
 
+
+
     public VentaDialog() {
         this.setContentPane(fondo);
         
         u.setNombreUsuario(LoginVentas.MostrarLabel[0]);
         u.setCategoria(LoginVentas.MostrarLabel[1]);
        
-       
+
+
+
         System.out.println("Dentro de Ventas\n----------------------");
         System.out.println(u.getNombreUsuario());
         System.out.println(u.getCategoria());
