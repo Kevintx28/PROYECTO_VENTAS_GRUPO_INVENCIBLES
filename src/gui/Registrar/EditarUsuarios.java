@@ -38,6 +38,7 @@ public class EditarUsuarios extends javax.swing.JFrame {
   
     
 
+
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -442,7 +443,8 @@ public class EditarUsuarios extends javax.swing.JFrame {
              if (evt.getClickCount()==1) {
             JTable receptor=(JTable)evt.getSource();
             
-            
+
+
             txf_id.setText(receptor.getModel().getValueAt(receptor.getSelectedRow(), 0).toString());
             u.setId(txf_id.getText());
             
