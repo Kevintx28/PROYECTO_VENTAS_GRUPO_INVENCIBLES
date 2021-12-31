@@ -197,6 +197,7 @@ public class implProducto {
         } catch (SQLException ex) {
                 ex.getMessage();
         }
-        return i;  
+        return i;
+
     }  
 }
