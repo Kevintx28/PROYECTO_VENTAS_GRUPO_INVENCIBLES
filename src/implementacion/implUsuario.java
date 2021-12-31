@@ -38,25 +38,26 @@ public class implUsuario {
         }                
         return i;
     }
-      
+
     public int actualizarUsuario(Usuario u){
-        
+
         int i=0;
         try {
+
             sql="UPDATE  usuario "+
-                "SET usuario_nombre='"+u.getNombre()+"', usuario_apellido='"+u.getApellido()+"', usuario_sexo='"+u.getSexo()+"', usuario_edad='"+u.getEdad()+"', usuario_categoria='"+u.getCategoria()+"', usuario_nombreusuario='"+u.getNombreUsuario()+"', usuario_pasword='"+u.getPasword()+"', usuario_dni_ruc='"+u.getDni_ruc()+"' " 
-                +"where usuario_id='"+u.getId()+"' "; 
-            
+                "SET usuario_nombre='"+u.getNombre()+"', usuario_apellido='"+u.getApellido()+"', usuario_sexo='"+u.getSexo()+"', usuario_edad='"+u.getEdad()+"', usuario_categoria='"+u.getCategoria()+"', usuario_nombreusuario='"+u.getNombreUsuario()+"', usuario_pasword='"+u.getPasword()+"', usuario_dni_ruc='"+u.getDni_ruc()+"' "
+                +"where usuario_id='"+u.getId()+"' ";
+
             stmt=cx.conectaMysql().createStatement();
             i=stmt.executeUpdate(sql);
             System.out.println(sql);
-            
+
         } catch (SQLException ex) {
             System.out.println("No se ejecuto "+sql);
                 ex.getMessage();
         }
         return i;
-        
+
     }
       //Este metodo lo utilizamos para validar el acceso o no
     public Usuario LoginReportePersonaUnico(String slogin, String spassword){
