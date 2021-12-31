@@ -494,6 +494,8 @@ public class RegistrarCompraProductoDialog extends javax.swing.JFrame {
     }
     public static void main(String args[]) {
 
+
+
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new RegistrarCompraProductoDialog().setVisible(true);
