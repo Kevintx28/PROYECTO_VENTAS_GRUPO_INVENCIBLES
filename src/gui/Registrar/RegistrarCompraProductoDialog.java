@@ -388,7 +388,9 @@ public class RegistrarCompraProductoDialog extends javax.swing.JFrame {
                     JOptionPane.INFORMATION_MESSAGE);
             }
             
-          
+
+
+
         }else{
             JOptionPane.showMessageDialog(null,
                 "No se registro, error en datos ingresados",
@@ -405,6 +407,8 @@ public class RegistrarCompraProductoDialog extends javax.swing.JFrame {
     private void tablaProductoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tablaProductoMouseClicked
         int row=tablaProducto.getSelectedRow();
              if (evt.getClickCount()==1) {
+
+
             JTable receptor=(JTable)evt.getSource();
 
             v_nombre.setText(receptor.getModel().getValueAt(receptor.getSelectedRow(), 1).toString());
