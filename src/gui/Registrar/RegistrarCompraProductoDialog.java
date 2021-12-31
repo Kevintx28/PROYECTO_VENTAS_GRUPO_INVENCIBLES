@@ -20,6 +20,8 @@ public class RegistrarCompraProductoDialog extends javax.swing.JFrame {
     FondoPanel fondo = new FondoPanel();
     DefaultTableModel  modelo;
 
+
+
     public RegistrarCompraProductoDialog() {
         this.setContentPane(fondo);
         
