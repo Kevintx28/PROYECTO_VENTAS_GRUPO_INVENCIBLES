@@ -337,6 +337,8 @@ public class RegistrarCompraProductoDialog extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
+
+
     private void btn_actualizar2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_actualizar2ActionPerformed
         if(!v_nombre.getText().equals("") && !v_marca.getText().equals("") && !v_precio.getText().equals("") && !v_stock.getText().equals("") && !v_stockAgregar.getText().equals("")){
             
