@@ -616,7 +616,8 @@ public class RegistrarVentaDialog extends javax.swing.JFrame {
                        "Fallido",
                        JOptionPane.INFORMATION_MESSAGE);
                 }
-               
+
+
             } else {
                 JOptionPane.showMessageDialog(
                     null,
