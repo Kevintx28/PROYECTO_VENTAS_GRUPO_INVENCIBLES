@@ -79,6 +79,8 @@ public class implProducto {
         } catch (SQLException ex) {
                 ex.getMessage();
         }
+
+
         return listaProductos; 
     }
     
