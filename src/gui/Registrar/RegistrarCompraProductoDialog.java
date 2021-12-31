@@ -424,6 +424,7 @@ public class RegistrarCompraProductoDialog extends javax.swing.JFrame {
             v_stock.setText(String.valueOf(p.getProducto_stock()));
 
             }
+
     }//GEN-LAST:event_tablaProductoMouseClicked
 
     private void v_tipoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_v_tipoActionPerformed
