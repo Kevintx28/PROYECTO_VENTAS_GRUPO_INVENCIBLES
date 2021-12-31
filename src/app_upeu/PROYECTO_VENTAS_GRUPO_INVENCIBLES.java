@@ -11,7 +11,7 @@ import gui.login.LoginVentas;
 
 /**
  *
- * @author Kevin
+ * @author Kevin and Fray
  */
 
 
