@@ -37,7 +37,8 @@ public class implProducto {
         
         return i;
     }
-    
+
+
       public int  registrarCompraProducto(Producto p){
         int i=0;
     
