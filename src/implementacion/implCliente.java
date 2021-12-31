@@ -16,13 +16,15 @@ import java.util.ArrayList;
 
 public class implCliente {
     ConexionDBQ cx= new ConexionDBQ();
-    
+
+
     ArrayList<RegistroVentaCliente> listaVentaCliente= new ArrayList<>();
     String sql="";
     String query="";
     Statement stmt= null;
     ResultSet rset=null; 
-    
+
+
     public int  registrarVentaProductoCliente(Usuario u, Producto p){
         int i=0;
 
