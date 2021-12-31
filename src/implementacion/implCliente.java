@@ -41,7 +41,8 @@ public class implCliente {
 
         return i;
     } 
-    
+
+
     public ArrayList<RegistroVentaCliente> reporteVentaCliente(RegistroVentaCliente c){
         try {
             sql=" select * from registro_compra_cliente where registroCliente_dni_ruc='"+c.getCliente_DNI_RUC()+"' and registroCliente_fecha >= '"+c.getFecha_antes()+"' and registroCliente_fecha <=Date_add('"+c.getFecha_actual()+"',interval 1 day)  "; 
