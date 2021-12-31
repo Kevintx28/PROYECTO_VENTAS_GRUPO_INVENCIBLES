@@ -152,6 +152,7 @@ public class implUsuario {
                 us.setDni_ruc(rset.getString(9));             
                 listaUsuarios.add(us);            
             }
+
         } catch (SQLException ex) {
                 ex.getMessage();
         }
