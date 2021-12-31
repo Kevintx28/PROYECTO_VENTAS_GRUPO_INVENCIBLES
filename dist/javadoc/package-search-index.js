@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"app_upeu"},{"l":"conexion"},{"l":"entidades"},{"l":"generator"},{"l":"gui.login"},{"l":"gui.Registrar"},{"l":"gui.Usuarios"},{"l":"gui.venta"},{"l":"implementacion"}]
