@@ -9,10 +9,14 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 
+
+
 public class implUsuario {
     ConexionDBQ cx= new ConexionDBQ();  
     ArrayList<Usuario> listaUsuarios= new ArrayList<>();
-    
+
+
+
     String sql="";
     String query="";
     Statement stmt= null;
