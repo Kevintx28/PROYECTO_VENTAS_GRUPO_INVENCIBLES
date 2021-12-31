@@ -7,10 +7,14 @@ package app_upeu;
 
 import gui.login.LoginVentas;
 
+
+
 /**
  *
- * @author Fray
+ * @author Kevin
  */
+
+
 public class PROYECTO_VENTAS_GRUPO_INVENCIBLES {
 
 
