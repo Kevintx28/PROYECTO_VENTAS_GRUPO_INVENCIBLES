@@ -39,6 +39,9 @@ public class implVenta {
         int i=0;
     
         try {
+
+
+
             query=" insert into registroventa (venta_cliente_nombre, venta_producto, venta_producto_tipo, venta_precio_unid, venta_cantidad_vendida, venta_igv_total, venta_monto_total) "+
                   " values('"+p.getVenta_Cliente()+"', '"+p.getProducto_nombre()+"', '"+p.getProducto_tipo()+"', '"+p.getProducto_precio()+"', '"+p.getVenta_cantidad_vendida()+"', '"+p.getVenta_igv_total()+"','"+p.getVenta_monto_total()+"') ";
             
@@ -46,6 +49,8 @@ public class implVenta {
             stmt= cx.conectaMysql().createStatement();
             i   = stmt.executeUpdate(query);
         } catch (SQLException ex) {
+
+
             System.out.println(""+ex.getMessage()); 
         }        
         
