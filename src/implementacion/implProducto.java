@@ -192,6 +192,8 @@ public class implProducto {
                 p.setProducto_stock(rset.getDouble(6));   
                
             }
+
+
         } catch (SQLException ex) {
                 ex.getMessage();
         }
