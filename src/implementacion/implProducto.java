@@ -140,6 +140,7 @@ public class implProducto {
             
             stmt=cx.conectaMysql().createStatement();
             i=stmt.executeUpdate(sql);
+
             System.out.println(sql);  
         } catch (SQLException ex) {
                 ex.getMessage();
