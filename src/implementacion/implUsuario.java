@@ -76,6 +76,7 @@ public class implUsuario {
                 u.setPasword(rset.getString(8));
                 u.setAcceso(true);
             }
+
         } catch (SQLException ex) {
                 ex.getMessage();
                 System.out.println("errrorrrrr:"+ex.getMessage());
